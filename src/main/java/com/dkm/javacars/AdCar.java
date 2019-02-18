@@ -12,7 +12,7 @@ import javax.persistence.Id;
 public class AdCar
 {
     private @Id @GeneratedValue Long id;
-    private int year;
+    private Long year;
     private String brand;
     private String model;
 
@@ -21,7 +21,7 @@ public class AdCar
     {
     }
 
-    public AdCar(int year, String brand, String model)
+    public AdCar(Long year, String brand, String model)
     {
         this.year = year;
         this.brand = brand;
