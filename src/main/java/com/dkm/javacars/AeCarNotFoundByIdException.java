@@ -1,6 +1,6 @@
 package com.dkm.javacars;
 
-public class AeCarNotFoundByIdException extends RuntimeException
+class AeCarNotFoundByIdException extends RuntimeException
 {
     public AeCarNotFoundByIdException(Long id)
     {

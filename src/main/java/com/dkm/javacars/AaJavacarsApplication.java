@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Bean;
 @SpringBootApplication
 public class AaJavacarsApplication
 {
-    public static final String EXCHANGE_NAME = "ServerCars";
+    private static final String EXCHANGE_NAME = "ServerCars";
     public static final String QUEUE_NAME = "QueueCars";
 
     public static void main(String[] args)

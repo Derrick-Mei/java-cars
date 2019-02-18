@@ -5,7 +5,7 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class AfCarLog implements Serializable
+class AfCarLog implements Serializable
 {
     private final String message;
     private final String formattedDate;
